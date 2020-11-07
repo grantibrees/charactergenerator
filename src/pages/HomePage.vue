@@ -2,6 +2,9 @@
 <div class="home flex-grow-1 d-flex flex-column align-items-center justify-content-center">
   <img src="../assets/img/cw-circle.png" alt="CodeWorks Logo">
   <h1>Welcome {{ user.name }}</h1>
+  <Experimental>
+    <div>Features!</div>
+    <Experimental />
 </div>
 </template>
 
